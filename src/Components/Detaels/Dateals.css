@@ -1,0 +1,12 @@
+#userDateals{
+   border: 2px solid #fb5200;
+   padding: 1rem;
+   border-radius: .4rem;
+   -webkit-border-radius: .4rem;
+   -moz-border-radius: .4rem;
+   -ms-border-radius: .4rem;
+   -o-border-radius: .4rem;
+   width: 500px;
+   height: auto;
+   margin: auto;
+}

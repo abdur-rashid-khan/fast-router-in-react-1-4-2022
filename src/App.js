@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Components/About/About';
+import Detaels from './Components/Detaels/Detaels';
 import Friends from './Components/Friends/Friends';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
@@ -16,6 +17,7 @@ function App() {
           <Route path='/home' element={<Home></Home>}></Route>
           <Route path='/about' element={<About></About>}></Route>
           <Route path='/user' element={<Friends></Friends>}></Route>
+          <Route path='/detaels/:id' element={<Detaels></Detaels>}></Route>
           <Route path='*' element={<NoDataFound></NoDataFound>}></Route>
         </Routes>
     </div>

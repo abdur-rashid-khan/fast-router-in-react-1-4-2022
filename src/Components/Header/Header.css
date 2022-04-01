@@ -1,0 +1,8 @@
+ul li{
+   list-style: none;
+   display: inline-block;
+}
+ul li a{
+   padding-left: 1rem ;
+   font-size: 1.1rem;
+}
